@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>WihAIster</title>
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/./assets/sw.js");
-      }
-    </script>
-    <link rel="manifest" href="/assets/manifest.json" />
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta charset="UTF-8" />
-  <link rel="preload" as="script" href="/./assets/client_dioxus-dxhb486231dfa6a2111.js" crossorigin></head>
-  <body>
-    <div id="main"></div>
-  <script type="module" async src="/./assets/client_dioxus-dxhb486231dfa6a2111.js"></script>
-            </body>
-</html>
+<!doctype html><meta charset=utf-8><title>WihAIster</title><style>html,body{height:100%;margin:0;overflow:hidden}</style><link crossorigin href=/iced_wihaister-4ad382d577d5c5d0.js integrity=sha384-qAMO9JV3mRk4PeOY99ZJPff9Ay8hsS6Q1qvflh9kiGB9WDSFGWtKOH0KKrEiuTif rel=modulepreload><link as=fetch crossorigin href=/iced_wihaister-4ad382d577d5c5d0_bg.wasm integrity=sha384-P6cmpWWRmWL5CkRYfkUDZYwMVy8sqbcZcC5dmMffUydJdvJfBCT/CbE1t8kIoANS rel=preload type=application/wasm></head><body><script type=module>import init, * as bindings from '/iced_wihaister-4ad382d577d5c5d0.js';
+const wasm = await init({ module_or_path: '/iced_wihaister-4ad382d577d5c5d0_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));</script></body></html>
