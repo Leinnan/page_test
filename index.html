@@ -1,8 +1,32 @@
-<!doctype html><meta charset=utf-8><title>WihAIster</title><style>html,body{height:100%;margin:0;overflow:hidden}</style><link crossorigin href=/iced_wihaister-7b4e0fca618a2650.js integrity=sha384-uJAwG1srDULle9QQKk7+aIZ0DQwXXFEnEoZla2dSAd2jTdvzjrVKOF3tkUtPMAfb rel=modulepreload><link as=fetch crossorigin href=/iced_wihaister-7b4e0fca618a2650_bg.wasm integrity=sha384-6Y/EuGSvfATNREFwHNQdawzaGe6Zf2PRMg9FsG2Ck78wL7rJc2ugCMFgyuALBhym rel=preload type=application/wasm></head><body><script type=module>import init, * as bindings from '/iced_wihaister-7b4e0fca618a2650.js';
-const wasm = await init({ module_or_path: '/iced_wihaister-7b4e0fca618a2650_bg.wasm' });
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Wihaister | Remote Desktop Reimagined</title>
+    <meta name="description" content="Join early access for Wihaister: encrypted remote desktop over QUIC with direct peer-to-peer connections and secure fallback routing when needed." />
 
-window.wasmBindings = bindings;
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+    <!-- Google Fonts: Manrope + Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
 
-dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));</script></body></html>
+    <!-- Cloudflare Turnstile (for Brevo newsletter captcha) -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script type="module" crossorigin src="/assets/index-CplqaCgy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-v_79sC36.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
