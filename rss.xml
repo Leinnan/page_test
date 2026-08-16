@@ -4,7 +4,7 @@
         <title>Wihaister Blog</title>
         <link>https://wihaister.com</link>
         <description>Updates, announcements, and deep dives from the Wihaister team.</description>
-        <lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -14,16 +14,8 @@
             <title><![CDATA[Welcome to Wihaister]]></title>
             <link>https://wihaister.com/blog/welcome-to-wihaister/</link>
             <guid isPermaLink="false">https://wihaister.com/blog/welcome-to-wihaister/</guid>
-            <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[An introduction to the future of remote desktop access.]]></description>
-            <author>contact@wihaister.com (Wihaister)</author>
-        </item>
-        <item>
-            <title><![CDATA[Security Deep Dive]]></title>
-            <link>https://wihaister.com/blog/security-deep-dive/</link>
-            <guid isPermaLink="false">https://wihaister.com/blog/security-deep-dive/</guid>
-            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[How Wihaister keeps your data private end-to-end.]]></description>
             <author>contact@wihaister.com (Wihaister)</author>
         </item>
     </channel>
