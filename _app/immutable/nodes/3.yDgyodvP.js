@@ -1,1 +1,0 @@
-import{rt as e}from"../chunks/Dia7F_pD.js";import"../chunks/xihTtKlq.js";import"../chunks/B_Tv1BKG.js";import{t}from"../chunks/DUYAyuaB.js";var n=e({entries:()=>r,prerender:()=>!0});function r(){return[{locale:`de`},{locale:`pl`}]}function i(e){t(e,{})}export{i as component,n as universal};
